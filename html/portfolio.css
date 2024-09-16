@@ -1,0 +1,116 @@
+/* General Styles */
+
+body {
+    background-color: #lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector: Styling the main heading (h1) */
+
+h1 {
+    color:white;
+    text-align: center;
+    padding: 35px;
+    background-color: darkblue;
+}
+
+h3 {
+    color:black;
+    text-align: center;
+    padding: 35px;
+}
+
+
+p {
+    color:black;
+    text-align: center;
+    padding: 35px;
+    font-size: 25px;
+}
+
+
+ul.no-bullets {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  color:black;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+.new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.nerko-one-regular {
+  font-family: "Nerko-One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size:40px;
+}
+        
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #bcaf9c;
+  padding: 10px;
+}
+.grid-item {
+  background-color:#bcaf9c;
+  border: 1px solid;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+#box-a {
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: mediumblue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
